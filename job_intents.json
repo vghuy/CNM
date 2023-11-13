@@ -1,0 +1,152 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Chào bạn",  
+                  "Có ai ở đó không?", 
+                  "Hey", 
+                  "Hola", 
+                  "Xin chào", 
+                  "Ngày tốt lành", 
+                  "Hey", 
+                  "Hi"],
+      "responses": ["Xin chào",
+                   "Hello"]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": ["Giới thiệu về machine learning", 
+                  "Machine learning là gì?", 
+                  "Giải thích về neural networks",
+                  "Làm thế nào NLP hoạt động?",
+                  "Ứng dụng của machine learning"],
+      "responses": [
+        "Machine learning là lĩnh vực của trí tuệ nhân tạo tập trung vào phát triển thuật toán và mô hình.",
+        "Neural networks là một loại mô hình machine learning được lấy cảm hứng từ cấu trúc của não người.",
+        "NLP (Natural Language Processing) liên quan đến tương tác giữa máy tính và ngôn ngữ tự nhiên của con người.",
+        "Machine learning được sử dụng trong nhiều ứng dụng, bao gồm nhận diện hình ảnh, nhận diện giọng nói và chat bot."
+      ]
+    },
+    {
+      "tag": "ai",
+      "patterns": ["Trí tuệ nhân tạo là gì?",
+                  "Giải thích về AI", 
+                  "Ứng dụng của AI", 
+                  "Làm thế nào AI hoạt động?", 
+                  "Tương lai của AI"],
+      "responses": [
+        "Trí tuệ nhân tạo (AI) là mô phỏng trí tuệ con người trong máy móc.",
+        "AI bao gồm việc phát triển các thuật toán giúp máy tính thực hiện các nhiệm vụ thường đòi hỏi trí tuệ con người.",
+        "AI được sử dụng trong nhiều ứng dụng, bao gồm y tế, tài chính và xe tự lái.",
+        "Tương lai của AI mang lại những tiến bộ tiềm năng trong lĩnh vực như robot, y học cá nhân và các công nghệ thông minh."
+      ]
+    },
+    {
+      "tag": "deep_learning",
+      "patterns": ["Giới thiệu về deep learning", 
+                  "Làm thế nào neural networks học?", 
+                  "Ứng dụng của deep learning", 
+                  "Sự khác biệt giữa ML và deep learning"],
+      "responses": [
+        "Deep learning là một phần của machine learning tập trung vào neural networks với nhiều lớp (deep neural networks).",
+        "Neural networks học thông qua quá trình gọi là backpropagation, điều chỉnh trọng số để giảm sai lệch giữa kết quả dự đoán và thực tế.",
+        "Deep learning được sử dụng trong các ứng dụng như nhận diện hình ảnh và giọng nói, xử lý ngôn ngữ tự nhiên và hệ thống tự động.",
+        "Trong khi machine learning là một khái niệm rộng lớn, deep learning cụ thể là về neural networks với nhiều lớp."
+      ]
+    },
+    {
+      "tag": "ml_algorithms",
+      "patterns": ["Giới thiệu về thuật toán hồi quy", 
+                  "Classification là gì?", 
+                  "Giải thích về clustering", 
+                  "Decision trees", 
+                  "Random forests", 
+                  "Support vector machines"],
+      "responses": [
+        "Các thuật toán hồi quy được sử dụng để dự đoán kết quả liên tục dựa trên các đặc trưng đầu vào.",
+        "Classification liên quan đến phân loại dữ liệu đầu vào thành các lớp hoặc nhãn đã xác định trước.",
+        "Clustering là một kỹ thuật được sử dụng để nhóm các điểm dữ liệu tương tự lại với nhau dựa trên các đặc trưng của chúng.",
+        "Decision trees là một loại mô hình đưa ra quyết định dựa trên giá trị của các đặc trưng đầu vào.",
+        "Random forests là một phương pháp học tập tập trung vào việc kết hợp nhiều cây quyết định.",
+        "Support Vector Machines (SVM) được sử dụng cho các nhiệm vụ phân loại và hồi quy bằng cách tìm một siêu phẳng phân chia tốt nhất giữa các điểm dữ liệu."
+      ]
+    },
+    {
+      "tag": "deep_learning_algorithms",
+      "patterns": ["Giới thiệu về kiến trúc neural network", 
+                  "Convolutional Neural Networks (CNN)", 
+                  "Recurrent Neural Networks (RNN)", 
+                  "Long Short-Term Memory (LSTM)", 
+                  "Generative Adversarial Networks (GAN)", 
+                  "Transformer"],
+      "responses": [
+        "Kiến trúc neural network đề cập đến cấu trúc và kết nối của các mạng neural nhân tạo.",
+        "Convolutional Neural Networks (CNN) thường được sử dụng cho các nhiệm vụ nhận diện hình ảnh.",
+        "Recurrent Neural Networks (RNN) được thiết kế để xử lý dữ liệu tuần tự và được sử dụng trong các nhiệm vụ như xử lý ngôn ngữ tự nhiên.",
+        "Long Short-Term Memory (LSTM) là một dạng của RNN có khả năng ghi lại các phụ thuộc lâu dài.",
+        "Generative Adversarial Networks (GAN) bao gồm một generator và một discriminator, được đào tạo theo kiểu đối đầu để tạo ra dữ liệu thực tế.",
+        "Kiến trúc Transformer được rộng rãi sử dụng trong các nhiệm vụ xử lý ngôn ngữ tự nhiên, cho phép tối ưu hóa và nắm bắt các phụ thuộc xa."
+      ]
+    },
+    {
+      "tag": "supervised_learning_algorithms",
+      "patterns": ["Linear Regression", 
+                  "Logistic Regression", 
+                  "Naive Bayes", 
+                  "K-Nearest Neighbors (KNN)", 
+                  "Decision Trees", 
+                  "Random Forests", 
+                  "Support Vector Machines (SVM)"],
+      "responses": [
+        "Linear Regression là một phương pháp dự đoán giá trị đầu ra liên tục dựa trên các biến đầu vào.",
+        "Logistic Regression được sử dụng cho các nhiệm vụ phân loại để dự đoán xác suất của một sự kiện.",
+        "Naive Bayes là một thuật toán phân loại dựa trên giả định đơn giản về độc lập giữa các biến đầu vào.",
+        "K-Nearest Neighbors (KNN) phân loại dữ liệu dựa trên kết quả của các điểm láng giềng gần nhất.",
+        "Decision Trees là một loại mô hình quyết định dựa trên các quy tắc if-else được xây dựng từ dữ liệu.",
+        "Random Forests là một phương pháp ensemble sử dụng nhiều cây quyết định để cải thiện độ chính xác và giảm overfitting.",
+        "Support Vector Machines (SVM) tìm một siêu phẳng phân chia tốt nhất giữa các lớp trong không gian đa chiều."
+      ]
+    },
+    {
+      "tag": "unsupervised_learning_algorithms",
+      "patterns": ["K-Means", 
+                  "Hierarchical Clustering", 
+                  "Principal Component Analysis (PCA)", 
+                  "Apriori", "DBSCAN", 
+                  "Mean Shift", 
+                  "t-SNE"],
+      "responses": [
+        "K-Means là một thuật toán phân cụm phổ biến dựa trên việc gán các điểm dữ liệu vào các cụm dựa trên trung bình của chúng.",
+        "Hierarchical Clustering xây dựng một cây phân cấp của các cụm dựa trên sự tương đồng giữa chúng.",
+        "Principal Component Analysis (PCA) giảm số chiều của dữ liệu để giảm độ phức tạp và giữ lại thông tin quan trọng.",
+        "Apriori là một thuật toán khám phá luật kết hợp trong các tập dữ liệu transactional.",
+        "DBSCAN là một thuật toán phân cụm dựa trên việc xác định các vùng có mật độ cao của dữ liệu.",
+        "Mean Shift di chuyển các trung tâm cụm dựa trên độ dày cao nhất của mật độ.",
+        "t-SNE (t-Distributed Stochastic Neighbor Embedding) là một thuật toán giảm chiều dữ liệu giữ lại sự tương đồng giữa các điểm."
+      ]
+    },
+    
+    {
+      "tag": "computer_science",
+      "patterns": [
+        "Giới thiệu về ngành Khoa học Máy tính",
+        "Các lĩnh vực trong Khoa học Máy tính",
+        "Các khái niệm quan trọng trong Khoa học Máy tính",
+        "Những nhân vật nổi tiếng trong lịch sử Khoa học Máy tính",
+        "Công nghệ mới trong Khoa học Máy tính",
+        "Xu hướng tương lai của ngành",
+        "Những thách thức đang đối mặt trong Khoa học Máy tính"
+      ],
+      "responses": [
+        "Khoa học máy tính là lĩnh vực nghiên cứu và ứng dụng về máy tính.",
+        "Các lĩnh vực trong Khoa học Máy tính bao gồm trí tuệ nhân tạo, học máy, mạng máy tính và nhiều lĩnh vực khác.",
+        "Các khái niệm quan trọng bao gồm thuật toán, cấu trúc dữ liệu, lập trình, kiến trúc máy tính và nhiều hơn nữa.",
+        "Những nhân vật nổi tiếng như Alan Turing, Grace Hopper và Tim Berners-Lee đã đóng góp lớn cho lịch sử Khoa học Máy tính.",
+        "Công nghệ mới như máy học sâu, blockchain và Internet of Things đang thay đổi cả ngành.",
+        "Xu hướng tương lai của ngành bao gồm sự hội nhập của AI, phát triển công nghệ lượng tử và ứng dụng ngày càng rộng rãi của thực tế ảo và thực tế ảo mở rộng.",
+        "Ngành Khoa học Máy tính đối mặt với những thách thức như bảo mật trực tuyến, quản lý dữ liệu lớn và chấp nhận công nghệ mới."
+      ]
+    }
+  
+  ]
+}
